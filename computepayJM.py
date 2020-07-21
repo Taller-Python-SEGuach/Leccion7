@@ -1,14 +1,10 @@
+a =float(input("ingrese la cantidad de horas:"))
+b =float(input("ingrese la paga por hora: "))
 def computepay(a):
     if a <= 40:
         c = a * 10
     else:
-        c = a * 10.5
+        c= ((a - 40)* b * 1.5) + 40 * b
     return c
 
-x =input("ingrese la cantidad de horas:")
-try:
-    x=float(x)
-    computepay(x)
-    print (computepay(x))
-except:
-    print ("no ingreso horas")
+print("Su paga es de:",computepay(a,b))

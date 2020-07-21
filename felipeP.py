@@ -1,6 +1,6 @@
 
 def computepay(hours,valor):
-    if hours<40:
+    if hours<=40:
         pago=hours*valor
     else:
         pago = 40*valor + (hours-40)*valor*1.5

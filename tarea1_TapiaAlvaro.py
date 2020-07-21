@@ -14,4 +14,4 @@ try :
    computepay(h,p)
    print("Te pagarán", computepay(h,p))
 except :
-    print("no ingreso un numero entero")
+    print("Ingrese solo números")

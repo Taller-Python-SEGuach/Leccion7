@@ -3,7 +3,7 @@ def computepay(horas,pagoprom):
     sueldo = horas*pagoprom
   if horas >40 :
     sueldo = pagoprom*40 + (horas-40)*1.5*pagoprom
-  return print("El sueldo que recibes asciende a:" + str(sueldo))
+  return print("El sueldo que recibes asciende a: " + str(sueldo))
 
 try:
   x = float(input("Ingrese el número de horas trabajadas semanalmente: "))

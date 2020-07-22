@@ -1,6 +1,6 @@
 a =float(input("ingrese la cantidad de horas:"))
 b =float(input("ingrese la paga por hora: "))
-def computepay(a):
+def computepay(a,b):
     if a <= 40:
         c = a * b
     else:
